@@ -1,0 +1,45 @@
+
+
+Counting objects, inside and outside, longer and shorter, letter names, rhyming words, and more.
+
+
+ <img src="images/news.png" alt=""> <h3 class="text-white" style="font-weight: bolder;"> News & Updates</h3>
+          <p class="">Read All News</p>
+          <img src="images/news1.png" alt="">
+          <p class="text-white pt-2">September 10, 2021 ADMISSION/ STUDENT</p>
+          <p class="text-white"> Professor Albert joint research on mobile money in Tanzania </p>
+
+
+
+          <img src="images/news.png" alt=""> <h3 class="text-white" style="font-weight: bolder;"> News & Updates</h3><p class="">Read All News</p>
+
+
+          <h3 >Upcoming Events ----------</h3>
+        <div> <span style="; font-size: xx-large;">08 <br> Aug</span> </p> <p> Reunion Event : Kingster’s Alumni Golf Tour</p>
+
+    <div class="col-md-4" style="background-color: #f5f5f5;">
+        <h3 style="color: #e80031;">Upcoming Events ----------</h3>
+        <div class="row pt-5 pl-md-5">
+        <div class="col-md-2">
+          <h2 style="color: #93d1ee; font-weight: bolder;">30</h2>
+          <h4>Aug</h4>
+          <p  style="color: #93d1ee; font-weight: bolder;">~~~~</p>
+          <h2 style="color: #93d1ee; font-weight: bolder;">25</h2>
+          <h4>Aug</h4>
+          <p  style="color: #93d1ee; font-weight: bolder;">~~~~</p>
+          <h2 style="color: #93d1ee; font-weight: bolder;">15</h2>
+          <h4>Aug</h4>
+          <p  style="color: #93d1ee; font-weight: bolder;">~~~~</p>
+        </div>
+        <div class="col-md-10">
+          <p class="pt-4">Reunion Event : Kingster’s Alumni Golf Tour</p>
+          <p style="color: #93d1ee;""><i class="far fa-clock"></i> 7:00 am - 7:00 am &nbsp;&nbsp;&nbsp;<i class="fas fa-map-marker-alt"></i> School Hall</p>
+          <p class="pt-5">Reunion Event : Kingster’s Alumni Golf Tour</p>
+          <p style="color: #93d1ee;""><i class="far fa-clock"></i> 7:00 am - 7:00 am &nbsp;&nbsp;&nbsp;<i class="fas fa-map-marker-alt"></i> School Hall</p>
+          <p class="pt-5">Reunion Event : Kingster’s Alumni Golf Tour</p>
+          <p style="color: #93d1ee;""><i class="far fa-clock"></i> 7:00 am - 7:00 am &nbsp;&nbsp;&nbsp;<i class="fas fa-map-marker-alt"></i> School Hall</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>

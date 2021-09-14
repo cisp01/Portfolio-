@@ -1,0 +1,90 @@
+<div class="col-md-8 col-lg-8 text-white p-2 ">
+          <p class="container"><i class="fas fa-envelope"></i>&nbsp; example@gmail.com  &nbsp; &nbsp; <i class="fas fa-map-marker-alt"></i>&nbsp;  Los Angeles, CA, United States</p>
+        </div>
+        <div class="col-md-4 col-lg-4 text-white">
+          <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-pinterest-p"></i> <i class="fab fa-instagram"></i>
+        </div>
+
+
+<div class="text-white" id="header">
+    <div class="row">
+      <div class="col-md-4 text-right">
+        <p class="container"><i class="fas fa-envelope"></i>&nbsp; example@gmail.com</p>
+      </div>
+      <div class="col-md-4">
+        <p class="container"><i class="fas fa-map-marker-alt"></i>&nbsp;  Los Angeles, CA, United States</p>
+      </div>
+      <div class="col-md-4 text-center container">
+        <i class="fab fa-facebook-f"></i>&nbsp; <i class="fab fa-twitter"></i>&nbsp; <i class="fab fa-pinterest-p"></i> &nbsp;<i class="fab fa-instagram"></i>&nbsp;
+      </div>
+    </div>
+  </div>
+
+
+  <h2>High Quality Services </h2>
+        <p class="text-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt</p>
+
+
+
+Pathology Testing
+
+Lorem ipsum dolor sit amet consectetur there adipiscing elit sed do eiusmod tempor monem incididunt of the medical.
+READ MORE
+
+
+
+Chemical Research
+
+Lorem ipsum dolor sit amet consectetur there adipiscing elit sed do eiusmod tempor monem incididunt of the medical.
+
+
+
+Advanced Microscopy
+
+Lorem ipsum dolor sit amet consectetur there adipiscing elit sed do eiusmod tempor monem incididunt of the medical.
+
+
+
+WELCOME TO MILITANT
+We are an established family friendly dental practice
+
+Our independent consultants, free from the internal demands of the traditional firmes, can focus on what really matters: delivering lasting impact. consultants opt in to the projects they genuinely want to work on, committing wholeheartedly to delivering transformational change
+
+Our independent consultants, free from the internal demands of traditional firmes, can focus on what really matters: delivering lasting impact. Our of a consultants opt in projects they want to work on, committing
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-gradient navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-weight: 900;font-size: 45px;color: hotpink;"><i class="fas fa-clinic-medical"></i>&nbsp;Medical</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" >
+        <ul class="navbar-nav">
+          <li class="nav-item p-0 pt-2 mx-5">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item p-0 pt-2 mx-2">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item p-0 pt-2">
+            <a class="nav-link" href="#">Doctor</a>
+          </li>
+          <li class="nav-item p-0 pt-2">
+            <a class="nav-link" href="#">Department</a>
+          </li>
+          <li class="nav-item p-0 pt-2">
+            <a class="nav-link" href="#">Page</a>
+          </li>
+          <li class="nav-item p-0 pt-2">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item p-0 pt-2 mx-2">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item p-0 mx-5">
+            <a class="nav-link" href="#"><button type="button" class="btn btn-outline-success">Get Appointment</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

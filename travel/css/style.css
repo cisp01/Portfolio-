@@ -1,0 +1,54 @@
+body {
+  background: #ffffff;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid #ff7b00;
+}
+
+/* Tour plan hover */
+.best-plan {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #00000070;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.best-plan:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+#destination1,
+#destination2,
+#destination3 {
+  box-shadow: 5px 5px 10px gray;
+}

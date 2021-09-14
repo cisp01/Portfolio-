@@ -1,0 +1,185 @@
+h1 {
+  font-family: "Lobster", serif;
+}
+
+p,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", serif;
+  src: url();
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+  font-family: AstroSpace;
+  src: url(/fonts/AstroSpace.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.main-nav {
+  height: 90px;
+}
+
+.logo {
+  color: rgb(0, 0, 0);
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: "AstroSpace", sans-serif;
+}
+
+.navlinks {
+  list-style: none;
+  float: right;
+  line-height: 40px;
+  margin-top: 20px;
+  padding: 0;
+  padding-right: 10px;
+}
+
+.navlinks li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#active {
+  color: #56d842;
+  padding-bottom: 1px;
+  border-bottom: 2px solid #56d842;
+}
+
+.navlinks li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: all 0.3s linear 0s;
+}
+
+.navlinks li a:hover {
+  color: #56d842;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #56d842;
+}
+
+.menu-btn {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#isChecked {
+  display: none;
+}
+
+@media (max-width: 1320px) {
+  .navlinks {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: #eceaeadc;
+    right: -100%;
+    transition: all 0.5s;
+  }
+
+  .navlinks li {
+    display: block;
+  }
+
+  .navlinks li a {
+    font-size: 20px;
+  }
+
+  .navlinks li a:hover {
+    border-bottom: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  #isChecked:checked ~ .navlinks {
+    right: 0;
+  }
+}
+
+@media (max-width: 100px) {
+  .logo {
+    margin-left: 30px;
+    font-size: 25px;
+  }
+
+  .menu-btn {
+    margin-right: 15px;
+    font-size: 25px;
+  }
+}
+
+/***** Navbar finish *********/
+
+#show-case img:hover {
+  transform: scale(1.1);
+}
+
+#opening img:hover,
+button:hover {
+  transform: scale(1.2);
+}
+
+#counter-up-area h1:hover {
+  transform: scale(1.2);
+}
+
+#s1:hover {
+  box-shadow: 5px 5px 10px rgb(131, 129, 129);
+  transform: scale(0.98);
+}
+
+#s2:hover {
+  box-shadow: 5px 5px 10px rgb(131, 129, 129);
+  transform: scale(0.98);
+}
+#s3:hover {
+  box-shadow: 5px 5px 10px rgb(131, 129, 129);
+  transform: scale(0.98);
+}
+
+#review img:hover {
+  transform: scale(1.2);
+}
+
+#doctor img:hover {
+  transform: scale(1.1);
+}
+
+#b1:hover {
+  box-shadow: 3px 10px 10px rgb(131, 129, 129);
+  transform: scale(1);
+}
+#b2:hover {
+  box-shadow: 3px 10px 10px rgb(131, 129, 129);
+  transform: scale(1);
+}
+#b3:hover {
+  box-shadow: 3px 10px 10px rgb(131, 129, 129);
+  transform: scale(1);
+}
