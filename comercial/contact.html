@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FA World</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light sticky-top bg-secondary">
+    <div class="container-xxl">
+      <a href="#" class="navbar-brand">
+        <span class="fw-bold fs-2"> <span class="text-danger">  FA </span>WORLD</span></a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center " id="main-nav">
+        <ul class="navbar-nav fw-bold ">
+          <li class="nav-item mx-2 ">
+            <a class="nav-link text-white "  href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2 ">
+            <a class="nav-link text-white" href="product.html">Our Products</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white"  href="about.html">About Us</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white"  id="active" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- about us top   -->
+
+  <div id="getintouch-top">
+    <div class="centered">
+      <h4 class=" text-danger text-center">CONTACT US</h4>
+      <p class=" display-3 fw-bolder text-center">LET'S GET IN TOUCH</p>
+    </div>
+  </div>
+
+
+<!-- location and maps -->
+<section class="container-lg">
+  <h3 class=" text-info">Our Location on Maps </h3>
+  <div class="row my-5">
+    <div class="col-md-8">
+      <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1524&amp;height=420&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=8&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">FNF Online Mods</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:420px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:420px;}.gmap_iframe {height:420px!important;}</style></div>
+    </div>
+
+    <div class="col-md-4">
+      <div class=" px-3 py-4">
+        <h5 class=" text-primary">About our office</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, doloremque. Possimus explicabo aspernatur necessitatibus illo optio laudantium exercitationem repellendus doloremque. Maiores molestias quidem distinctio consequuntur autem reiciendis, culpa temporibus neque.</p>
+        <p>Lorem ipsum dolor sit amet aerat temporibus eligendi nam voluptatum voluptatibus, aspernatur hic culpa.</p>
+        <div class=" fs-3 text-secondary bg-light ">
+          <i class="bi bi-facebook"></i>  <i class="bi bi-linkedin"></i> <i class="bi bi-twitter"></i> <i class="bi bi-instagram"></i>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+</section>
+
+
+<!-- contact form --> 
+  <section  style="background-color: rgb(241, 241, 241);"">
+    <div class=" container-lg">
+    <h3>Send us a Message</h3>
+    <div class="row align-items-center">
+
+      <div class="col-md-8">
+        <form>
+          <label for="email" class="form-label">Email address:</label>
+          <div class="mb-4 input-group">
+            <span class="input-group-text">
+              <i class="bi bi-envelope-fill"></i>
+            </span>
+            <input type="email" class="form-control" id="email" placeholder="e.g. mario@example.com">
+            <!-- tooltip -->
+            <span class="input-group-text" data-bs-placement="bottom" title="Enter a email address we reply to.">
+              <i class="bi bi-question-circle text-muted"></i>
+            </span>
+          </div>
+
+          <label for="name" class="form-label">Name:</label>
+          <div class="mb-4 input-group">
+            <span class="input-group-text">
+              <i class="bi bi-person-fill"></i>
+            </span>
+            <input type="text" class="form-control" id="name" placeholder="e.g. Mario">
+            <!-- tooltip -->
+            <span class="input-group-text" data-bs-placement="bottom" title="Pretty self explanatory really....">
+              <i class="bi bi-question-circle text-muted"></i>
+            </span>
+          </div>
+
+
+          <label for="subject" class="form-label">What is your question about?</label>
+          <div class="input-group mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-chat-right-dots-fill"></i>
+            </span>
+            <select class="form-select" id="subject">
+              <option value="pricing" selected>Pricing query</option>
+              <option value="content">Content query</option>
+              <option value="other">Other query</option>
+            </select>
+          </div>
+
+
+          <div class="form-floating mb-4 mb-5">
+            <textarea id="query" class="form-control" style="height: 140px"></textarea>
+            <label for="query" class="form-label">Your query...</label>
+          </div>
+
+          <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </div>
+
+        </form>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Title one #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ipsum nemo amet, ullam et labore? Vel totam excepturi eius error natus modi exercitationem quia incidunt explicabo assumenda voluptas consectetur, dignissimos rem laboriosam facere maiores facilis praesentium distinctio corrupti expedita nam veniam voluptatibus temporibus. Reiciendis sit deleniti pariatur, perferendis ipsa itaque?</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Title secound #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Title third #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+
+
+
+  <footer class=" text-center my-5">
+    <p>COYRIGHT 2021 FA WORLD - DESIGN: RAKIB HASAN</p>
+  </footer>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FA World</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light sticky-top bg-secondary">
+    <div class="container-xxl">
+      <a href="#" class="navbar-brand">
+        <span class="fw-bold fs-2"> <span class="text-danger">  FA </span>WORLD</span></a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center " id="main-nav">
+        <ul class="navbar-nav fw-bold ">
+          <li class="nav-item mx-2 ">
+            <a class="nav-link text-white " id="active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2 ">
+            <a class="nav-link text-white" href="product.html">Our Products</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <div class="home">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-controls">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/slide-1.jpg')"></li>
+          <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/slide-2.jpg')"></li>
+          <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/slide-3.jpg')"></li>
+          
+        </ol>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+         <img src="img/left-arrow.svg" alt="Prev"> 
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <img src="img/right-arrow.svg" alt="Next">
+      </a>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image:url('img/slide-1.jpg')">
+          <div class="container">
+            <p>FLASH DEAL</p>
+            <h2>GET YOUR BEST PRODUCT</h2>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url('img/slide-2.jpg')">
+          <div class="container">
+            <p>FLASH DEAL</p>
+            <h2>GET YOUR BEST PRODUCT</h2>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url('img/slide-3.jpg')">
+          <div class="container">
+            <p>FLASH DEAL</p>
+            <h2>GET YOUR BEST PRODUCT</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+     </div>
+
+
+     <section>
+       <div class="container-lg">
+         <h3>Latest Products</h3>
+         <div class="text-end"> <a class="text-danger text-decoration-none" href="#">VIEW ALL PRODUCTS ~</a> </div>
+
+         <!-- Item row 1-->
+         <div class="my-5 justify-content-center align-content-center ">
+         <div class="row row-cols-1 row-cols-md-3 g-5">
+          <div class="col">
+            <div class="card border-0 h-100 ">
+              <img src="img/item1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title p-1">Title goes here</h5>
+                <h4 class="text-end fw-bolder text-danger"> 20$</h4>
+                <p class="card-text p-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, placeat?</p>
+                <p class="text-end"> <span class="text-danger"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> <a href="#" class="text-muted text-decoration-none"> Reviews(25)</a>  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 h-100">
+              <img src="img/item2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title p-1">Title goes here</h5>
+                <h4 class="text-end fw-bolder text-danger"> 25.99$</h4>
+                <p class="card-text p-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, placeat?</p>
+                <p class="text-end"> <span class="text-danger"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> <a href="#" class="text-muted text-decoration-none"> Reviews(25)</a>  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 h-100">
+              <img src="img/item3.jpg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h5 class="card-title p-1">Title goes here</h5>
+                <h4 class="text-end fw-bolder text-danger"> 30.95$</h4>
+                <p class="card-text p-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, placeat?</p>
+                <p class="text-end"> <span class="text-danger"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> <a href="#" class="text-muted text-decoration-none"> Reviews(25)</a>  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Item row 2-->
+        <div class="justify-content-center align-content-center ">
+          <div class="row row-cols-1 row-cols-md-3 g-5">
+           <div class="col">
+             <div class="card border-0 h-100 ">
+               <img src="img/item4.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title p-1">Title goes here</h5>
+                 <h4 class="text-end fw-bolder text-danger"> 50$</h4>
+                 <p class="card-text p-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, placeat?</p>
+                 <p class="text-end"> <span class="text-danger"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> <a href="#" class="text-muted text-decoration-none"> Reviews(25)</a>  </p>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card border-0 h-100">
+               <img src="img/item5.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title p-1">Title goes here</h5>
+                 <h4 class="text-end fw-bolder text-danger"> 105.50$</h4>
+                 <p class="card-text p-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, placeat?</p>
+                 <p class="text-end"> <span class="text-danger"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> <a href="#" class="text-muted text-decoration-none"> Reviews(25)</a>  </p>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card border-0 h-100">
+               <img src="img/item6.jpg" class="card-img-top img-thumbnail" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title p-1">Title goes here</h5>
+                 <h4 class="text-end fw-bolder text-danger"> 40.5$</h4>
+                 <p class="card-text p-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, placeat?</p>
+                 <p class="text-end"> <span class="text-danger"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> <a href="#" class="text-muted text-decoration-none"> Reviews(25)</a>  </p>
+               </div>
+             </div>
+           </div>
+         </div>
+         </div>
+
+         <div class="text-center fw-bolder fs-3"><span class="badge rounded-pill btn btn-outline-info text-dark px-4 py-2"> View More</span>  </div> 
+
+       </div>
+     </section>
+
+
+    <!-- about FA world -->
+    <section>
+      <div class="container-lg my-5">
+        <h3 class="text-uppercase fw-bolder pb-5">About fa world</h3>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="py-2 text-primary">Looking for the best products?</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ullam voluptatibus non autem laborum magnam assumenda ducimus ipsam voluptate dolorem modi, fugit consequuntur maxime, cum illo accusantium recusandae iure quo.</p>
+            <ul class="">
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor sit</li>
+            </ul>
+            <button type="button" class="btn btn-info mx-3 my-3">Read More</button>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="img/aboutfa.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--creative and unique -->
+    <section class="container-fluid my-3 " style="background-color: #f5f5f5;">
+
+      <div class="container ">
+        <div class="row justify-content-around   align-items-center">
+          <div class="col-md-8">
+            <h4 class=" text-primary">Creative & Unique Fashion Products</h4>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nemo repellendus deserunt aliquam aspernatur sequi quas pariatur delectus modi expedita.</p>    
+          </div>
+          <div class="col-md-4 text-center">
+            <button type="button" class="btn btn-danger">Purchase Now</button>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <footer class=" text-center my-5">
+      <p>COYRIGHT 2021 FA WORLD - DESIGN: RAKIB HASAN</p>
+    </footer>
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+  </body>
+</html>
+

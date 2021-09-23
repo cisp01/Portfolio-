@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+  font-family: AstroSpace;
+  src: url(/fonts/AstroSpace.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 60px 0;
+}
+
+/*********** carousal end  *******************************/
+
+#active {
+  border-bottom: 2px solid red;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid rgb(250, 225, 0);
+}
+
+/*********** carousal start*******************************/
+
+.home .carousel-item {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.home .carousel-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.home .carousel-item .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.home .carousel-item h2 {
+  font-size: 80px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  opacity: 0;
+}
+.home .carousel-item p {
+  font-size: 30px;
+  margin: 0;
+  color: #f00000;
+  opacity: 0;
+}
+.home .carousel-item.active h2 {
+  animation: fadeInLeft 0.5s ease forwards;
+}
+.home .carousel-item.active p {
+  animation: fadeInRight 0.5s ease forwards;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.home .carousel-controls {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  z-index: 10;
+  transform: translateX(-50%);
+}
+
+.home .carousel-indicators {
+  position: relative;
+  margin: 0;
+}
+
+.home .carousel-indicators li {
+  height: 70px;
+  width: 70px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+.home .carousel-indicators li.active {
+  border-color: #ffffff;
+  transform: scale(1.2);
+}
+
+.home .carousel-control-next,
+.home .carousel-control-prev {
+  height: 60px;
+  width: 60px;
+  opacity: 1;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.home .carousel-control-next:hover,
+.home .carousel-control-prev:hover {
+  box-shadow: 0 0 10px #ffffff;
+}
+.home .carousel-control-next img,
+.home .carousel-control-prev img {
+  width: 30px;
+}
+.home .carousel-control-next {
+  right: -90px;
+}
+.home .carousel-control-prev {
+  left: -90px;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .home .carousel-control-next,
+  .home .carousel-control-prev {
+    display: none;
+  }
+  .home .carousel-indicators li {
+    height: 60px;
+    width: 60px;
+  }
+  .home .carousel-item h2 {
+    font-size: 45px;
+  }
+  .home .carousel-item p {
+    font-size: 22px;
+  }
+}
+
+/**** Product top************************************/
+#product-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../img/producttop.png");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  color: #ffffff;
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/************************************** Portpolio filter******************/
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btnp {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btnp:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btnp.active {
+  background-color: #666;
+  color: white;
+}
+
+/******************************************* about us ***********************************/
+#aboutus-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../img/abouttop.png");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  color: #ffffff;
+  position: relative;
+}
+
+/********** team section *****/
+
+.team-section {
+  background-color: #009688;
+  min-height: 100vh;
+  padding: 70px 15px 30px;
+}
+
+#teams.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+#teams.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-section .section-title {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 70px;
+}
+
+.team-section .section-title h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.team-section .section-title p {
+  font-size: 16px;
+  text-align: center;
+  margin: 15px 0 0;
+  color: #ffffff;
+}
+.team-section .team-items {
+  flex-basis: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.team-section .team-items .item {
+  flex-basis: calc(25% - 30px);
+  max-width: calc(25% - 30px);
+  transition: all 0.5s ease;
+  margin-bottom: 40px;
+}
+.team-section .team-items .item img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.team-section .team-items .item .inner {
+  position: relative;
+  z-index: 11;
+  padding: 0 15px;
+}
+.team-section .team-items .item .inner .info {
+  background-color: #009688;
+  text-align: center;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  margin-top: -40px;
+}
+.team-section .team-items .item:hover .info {
+  transform: translateY(-20px);
+}
+.team-section .team-items .item:hover {
+  transform: translateY(-10px);
+}
+.team-section .team-items .item .inner .info h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.team-section .team-items .item .inner .info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #c5c5c5;
+  margin: 10px 0 0;
+}
+
+.team-section .team-items .item .inner .info .social-links {
+  padding-top: 15px;
+}
+
+.team-section .team-items .item .inner .info .social-links a {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  background-color: #ffffff;
+  color: #009688;
+  border-radius: 50%;
+  margin: 0 2px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+
+.team-section .team-items .item .inner .info .social-links a:hover {
+  box-shadow: 0 0 10px #000;
+}
+
+/*responsive*/
+@media (max-width: 991px) {
+  .team-section .team-items .item {
+    flex-basis: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 767px) {
+  .team-section .team-items .item {
+    flex-basis: calc(100%);
+    max-width: calc(100%);
+  }
+}
+
+/*********************************************** contact  *******************/
+
+#getintouch-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../img/getintouch.png");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  color: #ffffff;
+  position: relative;
+}
